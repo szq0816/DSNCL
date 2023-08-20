@@ -33,28 +33,28 @@ Please go to the [TU-Berlin official website](http://cybertron.cg.tu-berlin.de/e
 
 ## ============== Training ==============
 
-Train with the Sketchy Ext dataset
+### Train with the Sketchy Ext dataset
 
-
+- ```
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py
+  ```
 
+### Train with the TU-Berlin Ext dataset
 
-Train with the TU-Berlin Ext dataset
-
-
+- ```
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py
-
+  ```
 
 ## ============== Testing ==============
 
-Test with the Sketchy Ext dataset
+### Test with the Sketchy Ext dataset
 
-
+- ```
 CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_sketchy_zeroshot.py
+  ```
 
+### Test with the TU-Berlin Ext dataset
 
-Test with the TU-Berlin Ext dataset
-
-
+- ```
 CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_tuberlin_zeroshot.py
-
+  ```
