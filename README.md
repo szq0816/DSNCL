@@ -1,5 +1,4 @@
-# DSNCL
-The source code of the paper "Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval"
+# Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval
 
 ## ========= Installation and Requirements =========
 
