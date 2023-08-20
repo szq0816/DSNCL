@@ -16,7 +16,7 @@ The source code of the paper "Deep supervision network with contrastive learning
 ## ============== Datasets ==============
 
 ### Sketchy and TU-Berlin
-Please go to the https://github.com/buptLinfy/ZSE-SBIR
+Please go to the [by Lin et al.](https://github.com/buptLinfy/ZSE-SBIR)
 
 ## ============== Training ==============
 
