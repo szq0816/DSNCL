@@ -25,14 +25,9 @@ The source code of the paper "Deep supervision network with contrastive learning
 
 # ============== Datasets ==============
 Sketchy and TU-Berlin:
-
-- ```
 [by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
-  ```
 
-- ```
 [by Liu et al.](https://github.com/qliu24/SAKE)
-  ```
 
 # ============== Training ==============
 
