@@ -1,6 +1,6 @@
 # Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval
 
-[Fig.1](./Model.pdf)
+![Fig.1](./Model.png)
 
 ## ========= Installation and Requirements =========
 
