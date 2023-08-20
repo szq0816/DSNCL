@@ -3,25 +3,15 @@ The source code of the paper "Deep supervision network with contrastive learning
 
 ## ========= Installation and Requirements =========
 
-- ```
-  cudatoolkit=11.3.1
-  ```
+- ``` cudatoolkit=11.3.1  ```
 
-- ```
-  numpy=1.19.3
-  ```
+- ``` numpy=1.19.3  ```
 
-- ```
-  python=3.7.16
-  ```
+- ``` python=3.7.16  ```
 
-- ```
-  pytorch=1.10.0
-  ```
+- ``` pytorch=1.10.0  ```
 
-- ```
-  torchvision=0.11.0
-  ```
+- ``` torchvision=0.11.0  ```
 
 ## ============== Datasets ==============
 
@@ -35,26 +25,19 @@ Please go to the [TU-Berlin official website](http://cybertron.cg.tu-berlin.de/e
 
 ### Train with the Sketchy Ext dataset
 
-- ```
-CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py
-  ```
+- ``` CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py  ```
 
 ### Train with the TU-Berlin Ext dataset
 
-- ```
-CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py
-  ```
+- ``` CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py  ```
+
 
 ## ============== Testing ==============
 
 ### Test with the Sketchy Ext dataset
 
-- ```
-CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_sketchy_zeroshot.py
-  ```
+- ``` CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_sketchy_zeroshot.py  ```
 
 ### Test with the TU-Berlin Ext dataset
 
-- ```
-CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_tuberlin_zeroshot.py
-  ```
+- ``` CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_tuberlin_zeroshot.py  ```
