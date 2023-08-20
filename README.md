@@ -1,5 +1,7 @@
 # Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval
 
+![Fig.1](./Model.pdf)
+
 ## ========= Installation and Requirements =========
 
 - ``` cudatoolkit=11.3.1  ```
