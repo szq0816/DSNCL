@@ -1,5 +1,5 @@
 # DSNCL
-The source code of paper "Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval"
+The source code of the paper "Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval"
 
 ============== Installation and Requirements ==============
 - ```
@@ -23,20 +23,21 @@ The source code of paper "Deep supervision network with contrastive learning for
 
 
 ============== Datasets ==============
-Sketchy and TU-Berlin: [by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc) or [by Liu et al.](https://github.com/qliu24/SAKE)
+Sketchy and TU-Berlin:
+[by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc) or [by Liu et al.](https://github.com/qliu24/SAKE)
 
 
 ============== Training ==============
-# train with Sketchy Ext dataset
-python train_cse_resnet_sketchy_ext.py
+# Train with the Sketchy Ext dataset
+CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py
 
-# train with TU-Berlin Ext dataset
-python train_cse_resnet_tuberlin_ext.py
+# Train with the TU-Berlin Ext dataset
+CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py
 
 
 ============== Testing ==============
-# test with Sketchy Ext dataset
-python test_cse_resnet_sketchy_zeroshot.py
+# Test with Sketchy Ext dataset
+CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_sketchy_zeroshot.py
 
 # test with TU-Berlin Ext dataset
-python test_cse_resnet_tuberlin_zeroshot.py
+CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_tuberlin_zeroshot.py
