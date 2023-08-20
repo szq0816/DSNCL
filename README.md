@@ -1,7 +1,7 @@
 # DSNCL
 The source code of the paper "Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval"
 
-# ============== Installation and Requirements ==============
+# ========= Installation and Requirements =========
 
 - ```
   cudatoolkit=11.3.1
@@ -25,10 +25,11 @@ The source code of the paper "Deep supervision network with contrastive learning
 
 # ============== Datasets ==============
 Sketchy and TU-Berlin:
+
 - ```
 [by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
   ```
-or
+
 - ```
 [by Liu et al.](https://github.com/qliu24/SAKE)
   ```
