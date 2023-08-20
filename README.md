@@ -1,7 +1,7 @@
 # DSNCL
 The source code of the paper "Deep supervision network with contrastive learning for zero-shot sketch-based image retrieval"
 
-============== Installation and Requirements ==============
+# ============== Installation and Requirements ==============
 
 - ```
   cudatoolkit=11.3.1
@@ -23,34 +23,31 @@ The source code of the paper "Deep supervision network with contrastive learning
   torchvision=0.11.0
   ```
 
-============== Datasets ==============
+# ============== Datasets ==============
 Sketchy and TU-Berlin:
 - ```
 [by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
   ```
-  
 or
-
 - ```
 [by Liu et al.](https://github.com/qliu24/SAKE)
   ```
 
+# ============== Training ==============
 
-============== Training ==============
-
-# Train with the Sketchy Ext dataset
+Train with the Sketchy Ext dataset
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py
 
 
-# Train with the TU-Berlin Ext dataset
+Train with the TU-Berlin Ext dataset
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py
 
 
-============== Testing ==============
+# ============== Testing ==============
 
-# Test with Sketchy Ext dataset
+Test with the Sketchy Ext dataset
 CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_sketchy_zeroshot.py
 
 
-# test with TU-Berlin Ext dataset
+Test with the TU-Berlin Ext dataset
 CUDA_VISIBLE_DEVICES=1 python test_cse_resnet_tuberlin_zeroshot.py
