@@ -20,20 +20,25 @@ The source code of the paper "Deep supervision network with contrastive learning
 
 - ```
   torchvision=0.11.0
-
-
+- ```
 ============== Datasets ==============
 Sketchy and TU-Berlin:
-[by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc) or [by Liu et al.](https://github.com/qliu24/SAKE)
+- ```
+[by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
+- ```
+  
+or
 
-
+- ```
+[by Liu et al.](https://github.com/qliu24/SAKE)
+- ```
+  
 ============== Training ==============
 # Train with the Sketchy Ext dataset
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_sketchy_ext.py
 
 # Train with the TU-Berlin Ext dataset
 CUDA_VISIBLE_DEVICES=1 python train_cse_resnet_tuberlin_ext.py
-
 
 ============== Testing ==============
 # Test with Sketchy Ext dataset
