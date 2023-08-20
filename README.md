@@ -24,13 +24,12 @@ The source code of the paper "Deep supervision network with contrastive learning
   ```
 
 # ============== Datasets ==============
-Sketchy and TU-Berlin:
 
+### Sketchy
+Please go to the [Sketchy official website](https://sketchy.eye.gatech.edu/), or download the dataset from [Google Drive](https://drive.google.com/file/d/11GAr0jrtowTnR3otyQbNMSLPeHyvecdP/view?usp=sharing).
 
-[by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
-
-
-[by Liu et al.](https://github.com/qliu24/SAKE)
+### TU-Berlin
+Please go to the [TU-Berlin official website](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/), or download the dataset from [Google Drive](https://drive.google.com/file/d/12VV40j5Nf4hNBfFy0AhYEtql1OjwXAUC/view?usp=sharing).
 
 # ============== Training ==============
 
