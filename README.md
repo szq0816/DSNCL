@@ -20,18 +20,18 @@ The source code of the paper "Deep supervision network with contrastive learning
 
 - ```
   torchvision=0.11.0
-- ```
+  ```
 ============== Datasets ==============
 Sketchy and TU-Berlin:
 - ```
 [by Dutta et al.](https://github.com/AnjanDutta/sem-pcyc)
-- ```
+  ```
   
 or
 
 - ```
 [by Liu et al.](https://github.com/qliu24/SAKE)
-- ```
+  ```
   
 ============== Training ==============
 # Train with the Sketchy Ext dataset
