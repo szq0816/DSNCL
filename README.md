@@ -17,7 +17,7 @@
 ## ============== Datasets ==============
 
 ### Sketchy and TU-Berlin
-Please go to the [SAKE]([https://github.com/buptLinfy/ZSE-SBIR](https://github.com/qliu24/SAKE))
+Please go to the [SAKE](https://github.com/qliu24/SAKE)
 
 ## ============== Training ==============
 
